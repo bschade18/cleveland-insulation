@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Cleveland Insulation | Residential Insulation and Asbestos Removal
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1100px)"
+      href="widescreen.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/b714cb1e0e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav id="navbar">
+      <h1 class="logo">
+        <span class="text-primary"
+          ><i class="fas fa-truck-pickup"></i> Cleveland</span
+        >
+        Insulation
+      </h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#what">What</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header id="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">Professional, timely, and affordable !</h1>
+        <p class="lead">
+          Contact today for a quote!
+        </p>
+        <a href="#what" class="btn">Read More</a>
+      </div>
+    </header>
+    <!-- Section: What We Do -->
+    <section id="what" class="bg-light py-1">
+      <div class="container">
+        <h2 class="m-heading text-center">
+          <span class="text-primary">What</span> We Do
+        </h2>
+        <div class="items">
+          <div class="item">
+            <i class="fas fa-toolbox fa-2x"></i>
+            <div>
+              <h3>Pipe - Paper Finish & Aluminum</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam,
+                sint.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fas fa-hard-hat fa-2x"></i>
+            <div>
+              <h3>Asbestos Removal</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam,
+                sint.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Who We are -->
+    <!-- not using a container because
+    we want items to go to the edge -->
+    <section id="who">
+      <div class="who-img"></div>
+      <div class="who-text bg-dark p-2">
+        <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+        <p>
+          Experienced insulators you can count on to get the job done. Blah blah
+          blah - Cleveland Strong (hey noww) Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Accusantium beatae fugiat laboriosam,
+          dolores totam explicabo voluptate harum sed blanditiis, molestiae nam.
+          Temporibus, enim rem! Cum necessitatibus eveniet numquam pariatur
+          quibusdam?
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-form bg-primary p-2">
+        <h2 class="m-heading">Contact Us</h2>
+        <p>Please use the form below to contact us</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Enter Phone Number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              placeholder="Enter Message"
+              name="message"
+              id="message"
+            ></textarea>
+          </div>
+          <input type="submit" value="Send" class="btn btn-dark" />
+        </form>
+      </div>
+      <!-- <div class="map"></div> -->
+    </section>
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container">
+        <p>Copyright &copy; 2020, Cleveland Insulation, All Right Reserved</p>
+      </div>
+    </footer>
+
+    <!-- jQuery CDN -->
+    <!-- important this is above JS because it's used in the JS file -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Local JS File -->
+    <script src="js/main.js"></script>
+
+    <!-- Google Maps -->
+    <!-- Asynce defer means this can come after main, even though it's used in main -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAg1bbu3ugfzcJ84xviXnkpdKh3JssqFfw&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+</html>
+
+<!-- API KEY: AIzaSyAg1bbu3ugfzcJ84xviXnkpdKh3JssqFfw -->
