@@ -85,16 +85,16 @@ body {
   padding: 3rem;
 }
 
+.my-1 {
+  margin: 0.5rem 0;
+}
+
 .btn {
-  /* not 100% on what this accomplishes
-    inline-block */
   display: inline-block;
   color: #fff;
   background: #99badd;
   padding: 0.5rem 2rem;
   border-radius: 5px;
-  /* so if we use a button - not an anchor - 
-  we don't want the default border to show */
   border: none;
 }
 .btn:hover {
@@ -121,7 +121,6 @@ body {
   display: flex;
   justify-content: space-between;
   position: sticky;
-  /* on scroll, we want to stick to the top */
   top: 0;
   background: #333;
   color: #fff;
@@ -221,6 +220,7 @@ body {
 }
 
 .home-img {
-  width: 525px;
+  width: 600px;
   margin: 1rem 0;
+  border-radius: 5px;
 }

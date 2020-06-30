@@ -1,5 +1,5 @@
 // Smooth Scrolling
-$('#navbar a').on('click', function (event) {
+$('#navbar a, .contact').on('click', function (event) {
   if (this.hash !== '') {
     event.preventDefault();
 
